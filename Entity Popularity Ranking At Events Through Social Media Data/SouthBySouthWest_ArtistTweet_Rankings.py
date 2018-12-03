@@ -129,7 +129,7 @@ def main():
                                 lCount+=1
                                 
                         if(lCount == leng):
-                            tempScore += (math.log10(eval(line[2])) + eval(line[4]))
+                            tempScore += (math.log10(eval(line[2])))
                             tweetMatrix[SXSW_artistsIndexFinder[artist],userIndexFinder[currentUser]] += tempScore
                             
             #Progress bar
